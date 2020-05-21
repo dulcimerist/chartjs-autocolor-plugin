@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/dulcimerist/chartjs-autocolor-plugin/issues"
   },
-  "homepage": "https://github.com/dulcimerist/chartjs-autocolor-plugin#readme"
+  "homepage": "https://github.com/dulcimerist/chartjs-autocolor-plugin#readme",
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
