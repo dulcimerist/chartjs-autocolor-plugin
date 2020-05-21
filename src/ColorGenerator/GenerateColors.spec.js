@@ -1,5 +1,5 @@
-import {alternating, rainbow} from "./GenerateColors";
-import {describe, expect, test} from "@jest/globals";
+const {describe, expect, test} = require("@jest/globals");
+const {alternating, rainbow} = require("./GenerateColors");
 
 describe('Color Generator', () => {
     describe('alternating', () => {

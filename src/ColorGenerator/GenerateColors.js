@@ -1,4 +1,4 @@
-import {getBestNonFactorMultipleMultiplier} from "../Helpers/NonFactorMultipleFinder";
+const {getBestNonFactorMultipleMultiplier} = require("../Helpers/NonFactorMultipleFinder");
 
 function getColorMultiplier(initialOffset, incrementalOffset) {
     const TWO_PI = Math.PI * 2;
@@ -58,4 +58,4 @@ const alternating = function (size) {
         2 / 3, nonFactorIncrement / size, 128, 128)
 }
 
-export {rainbow, alternating, getCustomColors}
+module.exports = {rainbow, alternating, getCustomColors};

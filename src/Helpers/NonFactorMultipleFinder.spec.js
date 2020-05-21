@@ -1,8 +1,5 @@
-import {
-    getBestNonFactorMultipleMultiplier,
-    getAllNonFactorMultipleIncrements
-} from "./NonFactorMultipleFinder";
-import {describe, test, expect} from "@jest/globals";
+const {getBestNonFactorMultipleMultiplier, getAllNonFactorMultipleIncrements} = require("./NonFactorMultipleFinder");
+const {describe, test, expect} = require("@jest/globals");
 
 describe('Non-Factor-Multiple Finder', () => {
     describe('getAllNonFactorMultipleIncrements', () => {
