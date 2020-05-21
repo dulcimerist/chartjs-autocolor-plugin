@@ -1,0 +1,19 @@
+{
+  "name": "chartjs-autocolor-plugin",
+  "version": "1.0.0",
+  "description": "Automatically pick colors for your charts if none are provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dulcimerist/chartjs-autocolor-plugin.git"
+  },
+  "author": "Dulcimerist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dulcimerist/chartjs-autocolor-plugin/issues"
+  },
+  "homepage": "https://github.com/dulcimerist/chartjs-autocolor-plugin#readme"
+}
