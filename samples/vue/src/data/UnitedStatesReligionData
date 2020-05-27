@@ -1,0 +1,25 @@
+const UnitedStatesReligionData = {
+    title: 'United States Religious Populations',
+    data: [
+        {label: 'Catholic', count: 46004000},
+        {label: 'Baptist', count: 33964000},
+        {label: 'Methodist', count: 14174000},
+        {label: 'Lutheran', count: 9110000},
+        {label: 'Presbyterian', count: 4985000},
+        {label: 'Episcopal / Anglican', count: 3043000},
+        {label: 'United Church of Christ', count: 438},
+        {label: 'Non-Denominational Christian', count: 25980000},
+        {label: 'Pentecostal', count: 5647000},
+        {label: 'Churches of Christ', count: 1769000},
+        {label: 'Jehovah\'s Witness', count: 1381000},
+        {label: 'Seventh-Day Adventist', count: 668000},
+        {label: 'Mormon', count: 2487000},
+        {label: 'Jewish', count: 3137000},
+        {label: 'Buddhist', count: 404000},
+        {label: 'Muslim', count: 527000},
+        {label: 'New Religions', count: 1296000},
+        {label: 'Atheist / Agnostic', count: 1186000}
+    ]
+}
+
+export { UnitedStatesReligionData as default};

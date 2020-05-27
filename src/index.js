@@ -1,4 +1,4 @@
-import {alternating, rainbow} from "./ColorGenerator/GenerateColors";
+import {alternating, custom, rainbow} from "./ColorGenerator/GenerateColors";
 
 let autocolorPlugin = {
     id: 'autocolor',
@@ -12,7 +12,7 @@ let setBackgroundColors = function (chart) {
         if (!chart.data.datasets[i].backgroundColor) {
 
             const colors = getColors(
-                chart.options.plugins['autocolor'].layout,
+                chart.options.plugins['autocolor'],
                 chart.data.datasets[i].data.length
             );
 
@@ -26,8 +26,10 @@ let setBackgroundColors = function (chart) {
     }
 }
 
-let getColors = function (layout, categoryCount) {
-    switch (layout.toUpperCase()) {
+let getColors = function (pluginOptions, categoryCount) {
+    switch (pluginOptions.layout.toUpperCase()) {
+        case 'CUSTOM':
+            return custom(categoryCount, pluginOptions.colorScheme);
         case 'ALTERNATING':
             return alternating(categoryCount);
         case 'RAINBOW':
