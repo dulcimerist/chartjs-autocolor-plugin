@@ -1,7 +1,12 @@
 <template>
     <div id="app">
+        <label>Religions in the United States (Alternating Colors Example)</label>
         <canvas id="alternating"></canvas>
+        <br/>
+        <label>Netherlands House of Representatives By Party (Rainbow Colors Example)</label>
         <canvas id="rainbow"></canvas>
+        <br/>
+        <label>University of Michigan Enrollees By School (Custom Colors Example)</label>
         <canvas id="custom"></canvas>
     </div>
 </template>
