@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dulcimerist/chartjs-autocolor-plugin#readme",
   "dependencies": {
-    "chart.js": "^2.9.3"
+    "chart.js": "^2.9.4"
   },
   "devDependencies": {
     "jest": "^26.0.1"
